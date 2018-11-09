@@ -108,3 +108,9 @@ $(function() {
 	});
 
 });
+
+//$('.borrar').click(function(){
+// $(this).parent().parent().parent().remove();
+//});
+
+//<a href="#"><p class="borrar">borrar</p></a>

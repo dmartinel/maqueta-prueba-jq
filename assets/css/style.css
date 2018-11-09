@@ -93,6 +93,8 @@ body {
   top: -125px;
 /*  transition: all .25s ease-in-out;
 */  width: 120px;
+    margin-left: 30%;
+
 }
 
 .card--open .card__profile-container {
@@ -108,7 +110,7 @@ body {
 }
 
 .card__img {
-  width: 100%;
+  width: 90%;
 }
 
 .card__title {
@@ -166,22 +168,23 @@ body {
 
 .card__hidden {
   height: 0;
-  overflow: hidden;
-  transition: all .5s ease-in-out;
+  /*overflow: hidden;
+  transition: all .5s ease-in-out;*/
 }
 
 .card--open .card__hidden {
-  height: 250px;
+  height: 288px;
 }
 
 .social {
   border-bottom: 1px solid #eee;
-  border-top: 1px solid #eee;
-  font-size: .9rem;
+/*  border-top: 1px solid #eee;
+*/  font-size: .9rem;
   margin: 40px 10% 20px;
   padding: 10px 0;
   text-align: center;
   width: 80%;
+      margin: 91px 10% 20px;
 }
 
 .social__element {
@@ -266,6 +269,7 @@ body {
 
 .create__img {
   width: 100%;
+      margin-left: 40%;
 }
 
 .create__label {
