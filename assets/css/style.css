@@ -182,6 +182,7 @@ body {
 */  font-size: .9rem;
   margin: 40px 10% 20px;
   padding: 10px 0;
+
   text-align: center;
   width: 80%;
       margin: 91px 10% 20px;
@@ -192,6 +193,26 @@ body {
   margin: 0 2em;
   text-align: center;
 }
+
+/*Nuevos Estilos  */
+
+.txt__megs {
+
+}
+
+
+.img__megs {
+  
+}
+
+
+.icon__megs {
+  
+}
+
+
+
+/*Nuevos Estilos  */
 
 .social__number,
 .social__text {
