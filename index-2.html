@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="./assets/css/fontAwesome.css">
+    <link rel="stylesheet" href="./assets/css/fonts.css"> -->
+ <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+ <link rel="stylesheet" href="./assets/css/style.css">
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<title>PRUEBA JS</title>
+</head>
+<body>
+
+  <div class="container-fluid">
+    <h1></h1>
+    <p></p>
+
+    <div class="row">
+      <div class="col-md-6">
+
+
+        <section class="create">
+          <h2 class="create__title">Crear un nuevo twitter</h2>
+
+          <form action="#" class="create__form" autocomplete="off">
+
+
+            <div class="create__display_images">
+              <div class="create__profile"><img src="assets/images/profiles/uk.png" class="create__img"></div>
+            </div>
+
+            <!-- <label for="followers" class="create__label">
+              <input type="text" name="followers" class="create__input" id="followers" required>
+              <span class="create__placeholder">Followers</span>
+            </label> -->
+
+            <label for="author" class="create__label--select">
+              <select name="author" id="author" class="create__select">
+                <option value="uk.png">Seleccione un Autor</option>
+                <option value="she.jpg">Margot Robbie</option>
+                <option value="he.jpg">Ryan Reynolds</option>
+                <option value="mr.jpg">Barack Obama</option>
+                <option value="fl.jpg">Florcita Motuda</option>
+              </select>
+            </label>
+
+            <label for="likes" class="create__label">
+              <input type="text" name="likes" class="create__input" id="likes" required>
+              <span class="create__placeholder">Likes inicial = 0</span>
+            </label>
+
+            <!-- <label for="following" class="create__label">
+              <input type="text" name="following" class="create__input" id="following" required>
+              <span class="create__placeholder">Following</span>
+            </label> -->
+
+            <label for="name" class="create__label">
+              <input type="text" name="name" class="create__input" id="name" required>
+              <span class="create__placeholder">Texto aquí</span>
+            </label>
+
+            <input type="submit" value="Agregar" class="create__submit">
+          </form>
+        </section>
+
+
+      </div>
+
+      <div class="col-md-6">
+
+
+
+        <ul class="cards">
+          <li class="card card--open">
+            <!-- <div class="card__highlight">
+              <img class="card__img" src="./assets/images/squared/05.jpg" alt="">
+            </div> -->
+            <div class="card__content">
+              <div class="card__profile-container">
+                <img class="card__profile" src="./assets/images/profiles/mr.jpg" alt="">
+              </div>
+              <div class="card__title">
+                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus rem praesentium iste provident blanditiis dolorem temporibus tempora animi officiis delectus itaque earum laboriosam, rerum cum quidem obcaecati amet? Illo, at.</h2>
+              </div>
+              
+              <a class="card__like" href="#">
+                <i class="fas fa-heart"></i>
+              </a>
+
+              <div class="card__author">
+                <h3 class="card__author-name">Barack Obama</h3>
+              </div>
+
+
+              <div class="card__hidden">
+                <ul class="social">
+                  <!-- <li class="social__element">
+                    <div class="social__number">1040</div>
+                    <div class="social__text">Followers</div>
+                  </li> -->
+                  <li class="social__element">
+                    <div class="social__number">1</div>
+                    <div class="social__text">Likes</div>
+                  </li>
+                  <!-- <li class="social__element">
+                    <div class="social__number">215</div>
+                    <div class="social__text">Following</div>
+                  </li> -->
+                </ul>
+                <div class="card__follow">
+                  <button class="card__follow-btn card__follow-btn--following">Seguir</button>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+  
+
+  <script src="assets/js/lib/jquery-3.3.1.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
